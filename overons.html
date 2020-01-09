@@ -25,33 +25,35 @@
 
             <h1>Ons reclamebureau</h1>
 
+            <div class="clearboth">
             <img class="rondehoeken overons"  width="400px" height="300px" src="https://www.easysystems.nl/wp-content/uploads/2017/08/blije-kantoormensen-600x391.jpg">
 
             <p>Ons bedrijf, A4C kort voor Ads for Companies is een reclamebureau. Wij hebben ervoor gekozen om een reclamebureau op te stichten, omdat dit een goede manier is om onze creativiteit te uiten op een originele manier. Ons bedrijf wat we nu hebben bedacht heet Ads for Companies. Het houdt in dat wij reclame maken voor andere bedrijven. In ons bedrijf leveren wij een product en dienst. Het product van ons bedrijf is de reclame zelf en de dienst in de reclame verspreiden en het maken. Wij maken de reclame en zorgen ervoor dat dit verspreid wordt. Wij focussen ons op onbekende bedrijven, zodat zij hun grote doorbraak krijgen.
-            </p> 
+            </p>
+            </div>
+
+            <div class="clearboth"><h1 class="middel"> Dit is ons kantoor </h1></div>
 
             <!-- Slideshow container -->
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
-    <div class="numbertext">1 / 4</div>
-    <img class="rondehoeken" src="https://cloud.funda.nl/valentina_media/109/840/948_1440.jpg" style="width:100%">
+    <div class="numbertext">1 / 3</div>
+    <img src="https://cloud.funda.nl/valentina_media/109/840/950_1440.jpg" style="width:100%">
+    <div class="text">UTRECHT</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">2 / 4</div>
-    <img class="rondehoeken" src="https://cloud.funda.nl/valentina_media/109/840/974_1440.jpg" style="width:100%">
+    <div class="numbertext">2 / 3</div>
+    <img src="https://cloud.funda.nl/valentina_media/109/840/957_1440.jpg" style="width:100%">
+    <div class="text">LUNCHKAMER</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">3 / 4</div>
-    <img class="rondehoeken" src="https://cloud.funda.nl/valentina_media/109/840/969_1440.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">4 / 4</div>
-    <img class="rondehoeken" src="https://cloud.funda.nl/valentina_media/109/840/960_1440.jpg" style="width:100%">
+    <div class="numbertext">3 / 3</div>
+    <img src="https://cloud.funda.nl/valentina_media/109/840/974_1440.jpg" style="width:100%">
+    <div class="text">VERGADERKAMER</div>
   </div>
 
   <!-- Next and previous buttons -->
@@ -62,9 +64,9 @@
 
 <!-- The dots/circles -->
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
 </div>
 
 <script>
@@ -85,18 +87,20 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1} 
+  if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; 
+      slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block"; 
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
 </script>
+
+<p class="middel"> Ons kantoor ligt in Utrecht. Dit hebben wij bewust gekozen, omdat het midden in Nederland ligt. Als wij dan een vergadering willen houden, is het makkelijker voor elk bedrijf om naar ons te komen en een goede deal te sluiten.
             
              <footer>
                 <hr/>
